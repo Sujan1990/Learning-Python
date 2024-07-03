@@ -8,7 +8,9 @@ all_combine = alphabet+alphabet_upper+number+symbols
 
 all_combine_to_list = all_combine.split(",")
 
+print(all_combine)
 print(all_combine_to_list)
+
 
 random1=random.choice(all_combine_to_list)
 random2=random.choice(all_combine_to_list)

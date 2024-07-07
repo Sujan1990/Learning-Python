@@ -20,7 +20,6 @@ combine = alphabet+alphabet_upper+number+symbols
 combine_split = combine.split(",")
 
 
-
 def password_generator(n1):
     password = []
     for i in range (1,n1+1):
